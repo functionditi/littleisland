@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Island</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+<body>
+    <!-- <div class="tooltip">
+        <img style="padding-left: 10rem; padding-top: 10rem;" src="./assets/tulip-bg.png">
+        <span class="tooltiptext">Tooltip text</span>
+      </div> -->
+
+  
+        <div class="container">
+          <div id="layer1">
+            <img style="width: 100%;" src="./assets/moneybags.png">
+          </div>
+          <div id="island-past">
+            <img style="width: 100%;" src="./assets/past.png">
+          </div>
+      
+          <div id="island-eighties">
+            <img style="width: 100%;" src="./assets/80s.png">
+          </div>
+          
+          <div id="island-present">
+            <img style="width: 100%;" src="./assets/present.png">
+          </div>
+          <div id="text-layer1">
+    
+          </div>
+         
+          <div class="grid-tulip-bg">
+           
+           <img src="./assets/tulip-bg.png">
+          </div>
+          <div class="grid-tulip-1">
+            <button onclick="toggleElement('island-present'); toggleElement('layer1')">
+              <img src="./assets/tulip-1.png">
+            </button> 
+           
+          </div>
+          <div class="grid-tulip-2">
+             
+            <button onclick="toggleElement('island-eighties')">
+              <img src="./assets/tulip-2.png">
+            </button> 
+         
+           </div>
+           <div class="grid-tulip-3">
+
+            <button onclick="toggleElement('island-past')">
+              <img src="./assets/tulip-3.png">
+            </button> 
+            
+           </div>
+           <div class="grid-tulip-4">
+            <img  src="./assets/tulip-4.png">
+           </div>
+     
+         
+        </div>
+ 
+        <script>
+          function toggleElement(idname) {
+            var x = document.getElementById(idname);
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+          }
+          </script>
+   
+</body>
+</html>
